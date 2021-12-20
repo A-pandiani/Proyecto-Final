@@ -138,6 +138,11 @@ $(document).ready(function(){
         $(".contenedor").animate({
          width:`500px`, height:`350px`
         }, 1000);
-        $(".despues").show().animate({opacity:`1`}, 3000);
+        $(".despues").show().animate({opacity:`1`}, 3000).css("color","red");
+        
     });
+});
+$(".despues").prepend(`<p id="p1">ADIOS</p>`);
+$("#p1").click(function(){
+    $(".contenedor").fadeOut(4000) 
 });
