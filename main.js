@@ -54,7 +54,7 @@ function renderCarrito(){
         const Content = `
         
         
-        th scope="row">1</th>
+        <th scope="row">1</th>
         <td class="table__productos">
             <img src=${item.img} alt="">
             <h6 class="title">${item.title}</h6>
@@ -127,3 +127,17 @@ window.onload = function(){
         renderCarrito()
     }
 }
+/* $document.ready(function(){
+    $(`#fadeout`).click(function(){
+        $(`.product`).fadeout(4000)
+    });
+}) */
+
+$(document).ready(function(){
+    $(".contenedor").click(function(){
+        $(".contenedor").animate({
+         width:`500px`, height:`350px`
+        }, 1000);
+        $(".despues").show().animate({opacity:`1`}, 3000);
+    });
+});
