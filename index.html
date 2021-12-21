@@ -57,7 +57,7 @@
                 <div class="col d-flex justify-content-center-mb-4">
                     <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
                         <h5 class="card-title pt-2 text-center text-primary">Combo Vodka</h5>
-                        <img src="./img/vodka.png" class="card-img-top" alt="...">
+                        <img src="./img/vodka.png" class="card-img-top imgCampu" alt="...">
                         <div class="card-body ">
 
                             <p class="card-text  text-white-50 description">Vodka absolut, con dos jugos y hielo.</p>
@@ -72,7 +72,7 @@
                 <div class="col d-flex justify-content-center-mb-4">
                     <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
                         <h5 class="card-title pt-2 text-center text-primary">Bombay Sapphire</h5>
-                        <img src="./img/gin.jpg" class="card-img-top" alt="...">
+                        <img src="./img/gin.jpg" class="card-img-top imgCampu " alt="...">
                         <div class="card-body ">
 
                             <p class="card-text  text-white-50 description">Combo bombay con hielo, dos jugos o gaseosas (a eleccion)</p>
@@ -87,7 +87,7 @@
                 <div class="col d-flex justify-content-center-mb-4">
                     <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
                         <h5 class="card-title pt-2 text-center text-primary">Herederos!</h5>
-                        <img src="./img/herededro.jpg" class="card-img-top" alt="...">
+                        <img src="./img/herededro.jpg" class="card-img-top imgCampu" alt="...">
                         <div class="card-body ">
 
                             <p class="card-text  text-white-50 description">Combo herederos con hielo, dos jugos o gaseosas (a eleccion)</p>
@@ -102,7 +102,7 @@
                 <div class="col d-flex justify-content-center-mb-4">
                     <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
                         <h5 class="card-title pt-2 text-center text-primary">Lucky strike</h5>
-                        <img src="./img/lucky.jpg" class="card-img-top" alt="...">
+                        <img src="./img/lucky.jpg" class="card-img-top imgCampu" alt="...">
                         <div class="card-body ">
 
                             <p class="card-text  text-white-50 description">Cigarrilos en caja de 20.</p>
@@ -117,7 +117,7 @@
                 <div class="col d-flex justify-content-center-mb-4">
                     <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
                         <h5 class="card-title pt-2 text-center text-primary">Marlboro</h5>
-                        <img src="./img/marlboro.jpg" class="card-img-top" alt="...">
+                        <img src="./img/marlboro.jpg" class="card-img-top imgCampu" alt="...">
                         <div class="card-body ">
 
                             <p class="card-text  text-white-50 description">Cigarrilos en caja de 20</p>
@@ -132,7 +132,7 @@
                 <div class="col d-flex justify-content-center-mb-4">
                     <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
                         <h5 class="card-title pt-2 text-center text-primary">Philip morris</h5>
-                        <img src="./img/philip.jpg" class="card-img-top" alt="...">
+                        <img src="./img/philip.jpg" class="card-img-top imgCampu " alt="...">
                         <div class="card-body ">
 
                             <p class="card-text  text-white-50 description">Cigarrilos en caja de 20</p>
@@ -147,7 +147,7 @@
                 <div class="col d-flex justify-content-center mb-4">
                     <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
                         <h5 class="card-title pt-2 text-center text-primary">Camel</h5>
-                        <img src="./img/camel.jpg" class="card-img-top" alt="...">
+                        <img src="./img/camel.jpg" class="card-img-top imgCampu" alt="...">
                         <div class="card-body ">
 
                             <p class="card-text  text-white-50 description">Cigarrilos en caja de 20</p>
@@ -159,7 +159,7 @@
                     </div>
 
                 </div>
-<div class="contenedor bg-dark rounded ">
+<!-- <div class="contenedor bg-dark rounded ">
    
     <p class="antes card-title pt-2 text-center text-primary">Champagne</p>
     <img src="./img/champagne.jpg" class="card-img-top imgCampu" alt="...">
@@ -167,7 +167,44 @@
     <p class="despues">Baron v, con dos speed de acompañamiento
      </p>
     <button class="btn btn-primary button">Añadir a Carrito</button>
+</div> -->
+<div class="col d-flex justify-content-center mb-4">
+    <div class="card shadow mb-1 bg-dark rounded contenedor" style="width: 20rem;">
+        <h5 class="card-title pt-2 text-center text-primary">Champagne</h5>
+        <img src="./img/champagne.jpg" class="card-img-top imgCampu" alt="...">
+        <div class="card-body despues ">
+
+            <p class="card-text  text-white-50 description ">Baron v, con dos speed de acompañamiento</p>
+            <h5 class="text-primary">Precio: <span class="precio">$2500</span></h5>
+            <div class="d-grid gap-2">
+                <button class="btn btn-primary button">Añadir a Carrito</button>
+            </div>
+        </div>
+    </div>
+
 </div>
+
+            </div>
+
+            <div class="Promocion">
+                <div class="section">
+                    <button type="button" class="btn btn-light" id="json">Promociones!</button>
+                    <br><br>
+                    <table class="table table-success table-striped">
+                        <thead>
+                          <tr>
+                            <th>Tarjeta</th>
+                            <th>Promo</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody id="res">
+
+                        </tbody>
+                        
+                      </table>
+                </div>
+
             </div>
 
         </div>
@@ -219,6 +256,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
+    <script src="./ajax.js"></script>
 </body>
 
 </html>

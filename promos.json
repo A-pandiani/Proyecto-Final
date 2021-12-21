@@ -1,0 +1,19 @@
+[
+{
+"Tarjeta": "VISA",
+"Promo": "50% Off en fernet"
+
+},
+{
+    "Tarjeta": "MASTERCARD",
+    "Promo": "25% OFF en vodka Absolut"
+
+},
+{
+    "Tarjeta": "MACRO",
+    "Promo": "10% Off en cigarrilos"
+
+}
+
+
+]

@@ -139,7 +139,7 @@ $(document).ready(function(){
          width:`500px`, height:`350px`
         }, 1000);
         $(".despues").show().animate({opacity:`1`}, 3000).css("color","red");
-        
+       
     });
 });
 $(".despues").prepend(`<p id="p1">ADIOS</p>`);
