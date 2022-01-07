@@ -2,6 +2,8 @@ const ClickButton = document.querySelectorAll("button")
 let carrito = []
 const tbody = document.querySelector(".tbody")
 
+
+
 ClickButton.forEach(btn =>{
   btn.addEventListener("click", addToCarritoItem)  
 })
@@ -10,7 +12,7 @@ ClickButton.forEach(btn =>{
 function addToCarritoItem(e){
     const button = e.target
    const item = button.closest(".card")
-   const itemTitle = item.querySelector(".card-title").textContent; 
+   const itemTitle = item.querySelector('.card-title').textContent; 
  const itemPrecio = item.querySelector(".precio").textContent;
  const itemImg = item.querySelector(".card-img-top").src;
  
@@ -127,22 +129,6 @@ window.onload = function(){
         renderCarrito()
     }
 }
-/* $document.ready(function(){
-    $(`#fadeout`).click(function(){
-        $(`.product`).fadeout(4000)
-    });
-}) */
 
-$(document).ready(function(){
-    $(".contenedor").click(function(){
-        $(".contenedor").animate({
-         width:`500px`, height:`350px`
-        }, 1000);
-        $(".despues").show().animate({opacity:`1`}, 3000).css("color","red");
-       
-    });
-});
-$(".despues").prepend(`<p id="p1">ADIOS</p>`);
-$("#p1").click(function(){
-    $(".contenedor").fadeOut(4000) 
-});
+
+

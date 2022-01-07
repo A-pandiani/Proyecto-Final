@@ -1,16 +1,16 @@
 [
 {
-"Tarjeta": "VISA",
+"Tarjeta": "VISA" ,
 "Promo": "50% Off en fernet"
 
 },
 {
-    "Tarjeta": "MASTERCARD",
+    "Tarjeta": "PAYPAL",
     "Promo": "25% OFF en vodka Absolut"
 
 },
 {
-    "Tarjeta": "MACRO",
+    "Tarjeta": "MAESTRO",
     "Promo": "10% Off en cigarrilos"
 
 }
